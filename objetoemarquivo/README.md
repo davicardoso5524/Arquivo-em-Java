@@ -1,18 +1,33 @@
-## Getting Started
+# Sistema de Cadastro de Clientes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um sistema simples de cadastro de clientes em Java, utilizando serialização para salvar e carregar dados de clientes em arquivos. O objetivo deste projeto é demonstrar como trabalhar com arquivos utilizando objetos em Java de maneira prática.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Cadastrar novos clientes.
+- Mostrar todos os clientes cadastrados.
+- Buscar clientes pelo CPF.
+- Salvar e carregar automaticamente os clientes em um arquivo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias Utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Java**: Linguagem principal do projeto.
+- **Serialização**: Para salvar e carregar dados de objetos em arquivos.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do Projeto
 
-## Dependency Management
+- `Cliente`: Classe que representa o cliente, com atributos como nome, CPF, idade e ID.
+- `PessoaFisica`: Superclasse de `Cliente`, que contém atributos básicos como nome, idade e CPF.
+- Métodos para manipular a lista de clientes:
+  - `salvarClientes()`: Serializa e salva a lista de clientes no arquivo.
+  - `carregarClientes()`: Desserializa e carrega a lista de clientes do arquivo.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/davicardoso5524/Arquivo-em-Java
+
+2. Compile e execute o programa em sua IDE Java ou via terminal:
+  javac App.java
+  java App
