@@ -29,5 +29,6 @@ Este é um sistema simples de cadastro de clientes em Java, utilizando serializa
    git clone https://github.com/davicardoso5524/Arquivo-em-Java
 
 2. Compile e execute o programa em sua IDE Java ou via terminal:
-  javac App.java
-  java App
+`javac App.java`
+`java App`
+
