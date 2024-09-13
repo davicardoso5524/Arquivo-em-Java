@@ -2,6 +2,8 @@
 
 Este é um sistema simples de cadastro de clientes em Java, utilizando serialização para salvar e carregar dados de clientes em arquivos. O objetivo deste projeto é demonstrar como trabalhar com arquivos utilizando objetos em Java de maneira prática.
 
+- Link do Notion com mais detalhes: `https://lizard-party-865.notion.site/Arquivo-em-Java-Maneira-Pr-tica-8c5ecf66f457444583b433b3c44dc693`
+
 ## Funcionalidades
 
 - Cadastrar novos clientes.
@@ -29,6 +31,7 @@ Este é um sistema simples de cadastro de clientes em Java, utilizando serializa
    git clone https://github.com/davicardoso5524/Arquivo-em-Java
 
 2. Compile e execute o programa em sua IDE Java ou via terminal:
+```bash
 `javac App.java`
 `java App`
 
